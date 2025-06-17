@@ -56,7 +56,7 @@ const LegacySection: React.FC = () => {
             <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
               Legado Científico y Tecnológico de la CUJAE
             </h2>
-            <div className="w-24 h-1 bg-yellow-400 mx-auto mb-8"></div>
+            <div className="w-24 h-1 bg-green-500 mx-auto mb-8"></div>
             <p className="text-xl text-gray-200 max-w-3xl mx-auto">
               Un legado de innovación, resistencia y excelencia académica que trasciende generaciones
             </p>
@@ -83,7 +83,7 @@ const LegacySection: React.FC = () => {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               {achievements.map((achievement, index) => (
                 <div key={index} className="text-center">
-                  <achievement.icon className="h-10 w-10 text-yellow-400 mx-auto mb-4" />
+                  <achievement.icon className="h-10 w-10 text-green-400 mx-auto mb-4" />
                   <h4 className="text-lg font-semibold text-white mb-3">{achievement.title}</h4>
                   <p className="text-gray-300 text-sm leading-relaxed">{achievement.description}</p>
                 </div>
@@ -93,7 +93,7 @@ const LegacySection: React.FC = () => {
 
           {/* Final Message */}
           <div className="text-center">
-            <div className="bg-gradient-to-r from-yellow-400 to-yellow-500 rounded-2xl p-8 md:p-12 text-blue-900">
+            <div className="bg-gradient-to-r from-green-400 to-green-500 rounded-2xl p-8 md:p-12 text-blue-900">
               <h3 className="text-2xl md:text-3xl font-bold mb-4">
                 Un Futuro Construido sobre la Innovación
               </h3>

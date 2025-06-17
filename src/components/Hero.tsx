@@ -8,13 +8,13 @@ const Hero: React.FC = () => {
       <div className="relative z-10 container mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <div className="max-w-4xl mx-auto">
           <div className="mb-8">
-            <div className="inline-flex items-center space-x-2 bg-yellow-400/20 backdrop-blur-sm rounded-full px-4 py-2 mb-6">
-              <Award className="h-5 w-5 text-yellow-400" />
-              <span className="text-yellow-400 font-medium">Legado Histórico</span>
+            <div className="inline-flex items-center space-x-2 bg-green-500/20 backdrop-blur-sm rounded-full px-4 py-2 mb-6">
+              <Award className="h-5 w-5 text-green-400" />
+              <span className="text-green-400 font-medium">Legado Histórico</span>
             </div>
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight">
               CUJAE
-              <span className="block text-2xl md:text-3xl lg:text-4xl text-yellow-400 font-normal mt-2">
+              <span className="block text-2xl md:text-3xl lg:text-4xl text-green-400 font-normal mt-2">
                 Universidad Tecnológica de La Habana
               </span>
             </h1>
@@ -25,26 +25,26 @@ const Hero: React.FC = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
             <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 border border-white/20">
-              <Calendar className="h-8 w-8 text-yellow-400 mx-auto mb-3" />
+              <Calendar className="h-8 w-8 text-green-400 mx-auto mb-3" />
               <h3 className="text-lg font-semibold text-white mb-2">Período Especial</h3>
               <p className="text-gray-300 text-sm">1989 - 1994</p>
             </div>
             <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 border border-white/20">
-              <MapPin className="h-8 w-8 text-yellow-400 mx-auto mb-3" />
+              <MapPin className="h-8 w-8 text-green-400 mx-auto mb-3" />
               <h3 className="text-lg font-semibold text-white mb-2">Ubicación</h3>
               <p className="text-gray-300 text-sm">La Habana, Cuba</p>
             </div>
             <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 border border-white/20">
-              <Award className="h-8 w-8 text-yellow-400 mx-auto mb-3" />
+              <Award className="h-8 w-8 text-green-400 mx-auto mb-3" />
               <h3 className="text-lg font-semibold text-white mb-2">Centros</h3>
-              <p className="text-gray-300 text-sm">4 Centros de Investigación</p>
+              <p className="text-gray-300 text-sm">6 Centros de Investigación</p>
             </div>
           </div>
 
           <div className="space-y-4">
             <button
               onClick={() => document.getElementById('contexto')?.scrollIntoView({ behavior: 'smooth' })}
-              className="bg-yellow-400 hover:bg-yellow-500 text-blue-900 px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 transform hover:scale-105 inline-block"
+              className="bg-green-500 hover:bg-green-500 text-blue-900 px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 transform hover:scale-105 inline-block"
             >
               Descubrir Nuestra Historia
             </button>

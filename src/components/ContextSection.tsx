@@ -14,7 +14,7 @@ const ContextSection: React.FC = () => {
               <Clock className="h-5 w-5" />
               <span className="font-medium">1985 - 1994</span>
             </div>
-            <div className="w-24 h-1 bg-yellow-400 mx-auto mb-8"></div>
+            <div className="w-24 h-1 bg-green-500 mx-auto mb-8"></div>
           </div>
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-16">

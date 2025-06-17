@@ -47,7 +47,7 @@ const Navigation: React.FC<NavigationProps> = ({ activeSection, setActiveSection
           {/* Logo */}
           <div className="flex items-center space-x-3">
             <img 
-              src="/logo.png" 
+              src="/tarea-dip/logo.png" 
               alt="CUJAE Logo" 
               className="h-10 w-10 rounded-lg object-cover "
             />
@@ -65,7 +65,7 @@ const Navigation: React.FC<NavigationProps> = ({ activeSection, setActiveSection
                 onClick={() => scrollToSection(item.id)}
                 className={`px-3 py-2 text-sm font-medium transition-colors duration-200 ${
                   activeSection === item.id
-                    ? 'text-yellow-400 border-b-2 border-yellow-400'
+                    ? 'text-green-400 border-b-2 border-yellow-400'
                     : 'text-white hover:text-yellow-300'
                 }`}
               >
@@ -95,7 +95,7 @@ const Navigation: React.FC<NavigationProps> = ({ activeSection, setActiveSection
                   onClick={() => scrollToSection(item.id)}
                   className={`block w-full text-left px-3 py-2 text-base font-medium transition-colors duration-200 ${
                     activeSection === item.id
-                      ? 'text-yellow-400 bg-blue-800/50'
+                      ? 'text-green-400 bg-blue-800/50'
                       : 'text-white hover:text-yellow-300 hover:bg-blue-800/30'
                   }`}
                 >

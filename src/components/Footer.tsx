@@ -9,7 +9,7 @@ const Footer: React.FC = () => {
           {/* Logo and Description */}
           <div className="col-span-1 md:col-span-2">
             <div className="flex items-center space-x-3 mb-4">
-              <GraduationCap className="h-8 w-8 text-yellow-400" />
+              <GraduationCap className="h-8 w-8 text-green-400" />
               <div>
                 <h3 className="text-xl font-bold">CUJAE</h3>
                 <p className="text-sm text-gray-400">Universidad Tecnológica de La Habana</p>
@@ -30,7 +30,7 @@ const Footer: React.FC = () => {
             <h4 className="text-lg font-semibold mb-4">Contacto</h4>
             <div className="space-y-3">
               <div className="flex items-start space-x-3">
-                <MapPin className="h-5 w-5 text-yellow-400 mt-0.5" />
+                <MapPin className="h-5 w-5 text-green-400 mt-0.5" />
                 <div>
                   <p className="text-sm text-gray-300">
                     Calle 114 #11901 e/ Ciclovía y 119<br />
@@ -39,15 +39,15 @@ const Footer: React.FC = () => {
                 </div>
               </div>
               <div className="flex items-center space-x-3">
-                <Phone className="h-5 w-5 text-yellow-400" />
+                <Phone className="h-5 w-5 text-green-400" />
                 <p className="text-sm text-gray-300">+53 7 266 3293</p>
               </div>
               <div className="flex items-center space-x-3">
-                <Mail className="h-5 w-5 text-yellow-400" />
+                <Mail className="h-5 w-5 text-green-400" />
                 <p className="text-sm text-gray-300">info@cujae.edu.cu</p>
               </div>
              <div className="flex items-center space-x-3">
-                <img className='h-16' src='/Cujae_qrcode.png'></img>
+                <img className='h-16' src='/tarea-dip/Cujae_qrcode.png'></img>
              </div>
             </div>
           </div>
@@ -56,22 +56,22 @@ const Footer: React.FC = () => {
           <div>
             <h4 className="text-lg font-semibold mb-4">Enlaces Rápidos</h4>
             <div className="space-y-2">
-              <a href="#contexto" className="block text-sm text-gray-300 hover:text-yellow-400 transition-colors">
+              <a href="#contexto" className="block text-sm text-gray-300 hover:text-green-400 transition-colors">
                 Contexto Histórico
               </a>
-              <a href="#cetdir" className="block text-sm text-gray-300 hover:text-yellow-400 transition-colors">
+              <a href="#cetdir" className="block text-sm text-gray-300 hover:text-green-400 transition-colors">
                 CETDIR
               </a>
-              <a href="#cipel" className="block text-sm text-gray-300 hover:text-yellow-400 transition-colors">
+              <a href="#cipel" className="block text-sm text-gray-300 hover:text-green-400 transition-colors">
                 CIPEL
               </a>
-              <a href="#cecat" className="block text-sm text-gray-300 hover:text-yellow-400 transition-colors">
+              <a href="#cecat" className="block text-sm text-gray-300 hover:text-green-400 transition-colors">
                 CECAT
               </a>
-              <a href="#ceter" className="block text-sm text-gray-300 hover:text-yellow-400 transition-colors">
+              <a href="#ceter" className="block text-sm text-gray-300 hover:text-green-400 transition-colors">
                 CETER
               </a>
-              <a href="#legado" className="block text-sm text-gray-300 hover:text-yellow-400 transition-colors">
+              <a href="#legado" className="block text-sm text-gray-300 hover:text-green-400 transition-colors">
                 Legado
               </a>
             </div>

@@ -110,7 +110,7 @@ const CUJAEHistory: React.FC = () => {
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
               Historia de la CUJAE
             </h2>
-            <div className="w-24 h-1 bg-yellow-400 mx-auto mb-8"></div>
+            <div className="w-24 h-1 bg-green-500 mx-auto mb-8"></div>
             <p className="text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
               Universidad Tecnológica de La Habana "José Antonio Echeverría" - 
               Principal institución de educación superior técnica en Cuba

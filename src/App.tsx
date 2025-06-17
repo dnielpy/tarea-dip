@@ -72,7 +72,7 @@ function App() {
         ]}
         additionalInfo="CETDIR desarrolla actividades de ciencias y tecnologías orientadas al campo de la administración, con el fin de elevar la eficiencia y efectividad. La actividad de superación de cuadros es gestionada como proyectos con salidas de transformación en las entidades participantes."
         color="blue"
-        image="/1.jpeg"
+        image="/tarea-dip/1.jpeg"
       />
 
       <ResearchCenter
@@ -107,7 +107,7 @@ function App() {
         ]}
         additionalInfo="CIPEL tiene la responsabilidad de aunar los recursos materiales y humanos en el país para dar respuesta adecuada a las investigaciones que requiere el Sistema Electroenergético Nacional (SEN), integrados en un solo centro. Durante el Período Especial, estas pruebas fueron clave para mantener el suministro eléctrico en condiciones difíciles."
         color="green"
-        image="/2.jpeg"
+        image="/tarea-dip/2.jpeg"
       />
 
       <ResearchCenter
@@ -142,7 +142,7 @@ function App() {
         ]}
         additionalInfo="Las actividades docentes de pregrado están vinculadas a la carrera de Ingeniería Civil, y el posgrado incluye la Maestría de Ingeniería Civil y el Doctorado Curricular Colaborativo. Uno de sus resultados más relevantes ha sido la creación de las tejas de microconcreto (Tevi) y el sistema constructivo de ferrocemento SERF."
         color="purple"
-        image="/cvi-historia mejor.jpg"
+        image="/tarea-dip/cvi-historia mejor.jpg"
       />
 
       <ResearchCenter
@@ -177,7 +177,7 @@ function App() {
         ]}
         additionalInfo="CETER mantiene colaboración con universidades y centros de investigación nacionales y es miembro activo de la red Cubasolar. Durante el Período Especial, desarrolló tecnologías innovadoras que contribuyeron significativamente a la reducción de la dependencia de combustibles fósiles."
         color="orange"
-        image="/3.jpeg"
+        image="/tarea-dip/3.jpeg"
       />
 
       <LegacySection />
