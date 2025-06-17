@@ -180,6 +180,76 @@ function App() {
         image="/tarea-dip/3.jpeg"
       />
 
+      <ResearchCenter
+        id="cipro"
+        title="CIPRO"
+        year="1994"
+        subtitle="Ingeniería Ambiental y Biotecnología Aplicada"
+        description="El Centro de Estudios de Ingeniería de Procesos (CIPRO) fue fundado el 11 de febrero de 1994 como respuesta a la solicitud formulada por la Comisión de Ingenierización del Polo Científico del Oeste. CIPRO abarca las áreas de investigación de Ingeniería Ambiental y Biotecnología Aplicada, contribuyendo al desarrollo sostenible y la innovación tecnológica en Cuba."
+        functions={[
+          "Investigación en ingeniería ambiental",
+          "Desarrollo de biotecnología aplicada",
+          "Optimización de procesos industriales",
+          "Capacitación en tecnologías sostenibles",
+          "Consultoría en gestión ambiental"
+        ]}
+        impacts={[
+          "Reducción de impacto ambiental en procesos industriales",
+          "Innovación en biotecnología aplicada",
+          "Mejora en la gestión de recursos naturales",
+          "Contribución al desarrollo sostenible",
+          "Fortalecimiento de capacidades técnicas nacionales"
+        ]}
+        projects={[
+          {
+            name: "Gestión Ambiental",
+            description: "Proyectos enfocados en la reducción del impacto ambiental de procesos industriales"
+          },
+          {
+            name: "Biotecnología Aplicada",
+            description: "Desarrollo de soluciones biotecnológicas para sectores productivos"
+          }
+        ]}
+        additionalInfo="CIPRO ha sido un pilar en la investigación aplicada en ingeniería ambiental y biotecnología, promoviendo soluciones sostenibles y eficientes para los desafíos actuales."
+        color="blue"
+        image="/tarea-dip/7.jpg"
+      />
+
+      <ResearchCenter
+        id="ceta"
+        title="CETA"
+        year="1994"
+        subtitle="Tecnologías Avanzadas e Innovación"
+        description="El Centro de Estudios de Tecnologías Avanzadas (CETA) fue fundado el 4 de diciembre de 1994 como un proyecto conjunto con la Universidad Politécnica de Valencia. Posteriormente, funcionó de forma independiente y en agosto de 2020 se convirtió en la Sociedad de Interfaz de Ciencia y Tecnología de la Universidad Tecnológica de La Habana José Antonio Echeverría S.A., manteniendo el acrónimo CETA S.A."
+        functions={[
+          "Investigación en tecnologías avanzadas",
+          "Transferencia de innovación tecnológica",
+          "Desarrollo de proyectos de interfaz ciencia-tecnología",
+          "Capacitación en tecnologías emergentes",
+          "Consultoría en innovación empresarial"
+        ]}
+        impacts={[
+          "Impulso a la innovación tecnológica en Cuba",
+          "Fortalecimiento de la transferencia tecnológica",
+          "Desarrollo de soluciones avanzadas para sectores productivos",
+          "Promoción de la colaboración internacional en innovación",
+          "Consolidación de capacidades tecnológicas nacionales"
+        ]}
+        projects={[
+          {
+            name: "Interfaz Ciencia-Tecnología",
+            description: "Proyectos de transferencia tecnológica para sectores productivos"
+          },
+          {
+            name: "Tecnologías Emergentes",
+            description: "Investigación y desarrollo en tecnologías avanzadas para aplicaciones industriales"
+          }
+        ]}
+        additionalInfo="CETA ha sido clave en la transferencia de innovación tecnológica y el desarrollo de soluciones avanzadas, consolidando su papel como líder en tecnologías emergentes en Cuba."
+        color="green"
+        image="/tarea-dip/6.jpg"
+      />
+
       <LegacySection />
       <Footer />
     </div>
