@@ -80,7 +80,7 @@ const Footer: React.FC = () => {
 
         <div className="border-t border-gray-800 mt-8 pt-8 text-center">
           <p className="text-sm text-gray-400">
-            © 2024 CUJAE - Universidad Tecnológica de La Habana "José Antonio Echeverría". 
+            © 2025 CUJAE - Universidad Tecnológica de La Habana "José Antonio Echeverría". 
             Todos los derechos reservados.
           </p>
         </div>
