@@ -18,6 +18,8 @@ const Navigation: React.FC<NavigationProps> = ({ activeSection, setActiveSection
     { id: 'cipel', label: 'CIPEL' },
     { id: 'cecat', label: 'CECAT' },
     { id: 'ceter', label: 'CETER' },
+    { id: 'cipro', label: 'CIPRO' },
+    { id: 'ceta', label: 'CETA' },
     { id: 'legado', label: 'LEGADO' },
   ];
 
