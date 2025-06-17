@@ -26,6 +26,18 @@ const LegacySection: React.FC = () => {
       description: 'Proyectos de energías renovables y eficiencia energética',
       icon: TrendingUp,
       color: 'text-purple-600'
+    },
+    {
+      name: 'CETA',
+      description: 'Transferencia de innovación tecnológica y desarrollo de soluciones avanzadas',
+      icon: Globe,
+      color: 'text-green-600'
+    },
+    {
+      name: 'CIPRO',
+      description: 'Investigación en ingeniería ambiental y biotecnología aplicada',
+      icon: Lightbulb,
+      color: 'text-blue-600'
     }
   ];
 
@@ -63,7 +75,7 @@ const LegacySection: React.FC = () => {
           </div>
 
           {/* Research Centers Grid */}
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-6 mb-16 justify-items-center justify-center">
             {centers.map((center, index) => (
               <div key={index} className="bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/20 hover:bg-white/20 transition-all duration-300">
                 <div className="text-center">
